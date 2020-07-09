@@ -11,3 +11,5 @@ Another still open question is, if a composition of functions can be construed, 
  An example for an inner structure is a sequence of paths as strings. A path policy would provide a separator that modifies the prefix finding algorithm to backtrack to the previous such separator token.
 
 why? well, imagine the sequence ˋ'bar/baz', 'bar/bazaar'ˋ and a path policy providing the boolean predicate ˋlambda x: x == '/'ˋ should not yield ˋ'bar/baz', '', 'aar'ˋ but instead ˋ'bar/', 'baz', 'bazaar'ˋ.
+
+Note: the name of the default branch (with special meaning for github and gitlab users) is ˋdefaultˋ :wink:.
