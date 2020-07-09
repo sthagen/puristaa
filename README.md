@@ -9,3 +9,5 @@ The latter is not yet clear. One simple implementation path is to receive a refe
 
 Another still open question is, if a composition of functions can be construed, such that the prefix finding algorithm respects a caller provided policy representing the inner structure of the strings.
  An example for an inner structure is a sequence of paths as strings. A path policy would provide a separator that modifies the prefix finding algorithm to backtrack to the previous such separator token.
+
+why? well, imagine the sequence ˋ'bar/baz', 'bar/bazaar'ˋ and a path policy providing the boolean predicate ˋlambda x: x == '/'ˋ should not yield ˋ'bar/baz', '', 'aar'ˋ but instead ˋ'bar/', 'baz', 'bazaar'ˋ.
