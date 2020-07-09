@@ -23,15 +23,15 @@ def prefix_compression(paths):
 
 # pylint: disable=expression-not-assigned
 def main(argv=None):
-    """Process the files separately per folder."""
-    argv = sys.argv[1:] if argv is None else argv
+    """Test driver for the prefix compression taking the paths from argv."""
+    abs_paths = sys.argv[1:] if argv is None else argv
 
-    prefix, rel_paths = prefix_compression(argv)
+    prefix, rel_paths = prefix_compression(abs_paths)
     if len(rel_paths) > 5:
-        folders_disp = f"{prefix}[{', '.join(rel_paths[:3])}, ... {rel_paths[-1]}]"
+        compressed = f"{prefix}[{', '.join(rel_paths[:3])}, ... {rel_paths[-1]}]"
     else:
-        folders_disp = f"{prefix}{rel_paths}"
-    print(f"Prefix compression yields {folders_disp}")
+        compressed = f"{prefix}{rel_paths}"
+    print(f"Prefix compression yields {compressed}")
 
 
 if __name__ == "__main__":
