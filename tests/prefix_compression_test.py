@@ -31,7 +31,7 @@ def test_prefix_compression_nok_ints():
 
 
 def test_documentation_example():
-    sequence = ('bar/baz', 'bar/bazaar')
+    sequence = ['bar/baz', 'bar/bazaar']
     expect = ('bar/', ['baz', 'bazaar'])
     assert pc.prefix_compression(sequence, policy=lambda x: x == '/') == expect
 
