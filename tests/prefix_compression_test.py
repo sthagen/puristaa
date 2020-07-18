@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+# pylint: disable=missing-docstring,unused-import,reimported
 import pytest
 
 import prefix_compression.cli as cli

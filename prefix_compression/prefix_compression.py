@@ -5,8 +5,6 @@
 
 Implementation uses min-max left matching, single character backtracking policy and a list.
 """
-import os
-import sys
 
 
 def prefix_compression(texts, policy=None):
