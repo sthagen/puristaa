@@ -43,19 +43,19 @@ def test_prefix_compression_nok_floats():
         pc.prefix_compression([0.123, 3.1415])
 
 
-def test_documentation_example():
+def test_documentation_ok_example():
     sequence = ["bar/baz", "bar/bazaar"]
     expect = ("bar/", ["baz", "bazaar"])
     assert pc.prefix_compression(sequence, policy=lambda x: x == "/") == expect
 
 
-def test_documentation_no_policy_example():
+def test_documentation_ok_no_policy_example():
     sequence = ["bar/baz", "bar/bazaar"]
     expect = ("bar/baz", ["", "aar"])
     assert pc.prefix_compression(sequence, policy=None) == expect
 
 
-def test_documentation_tuple_no_policy_example():
+def test_documentation_ok_tuple_no_policy_example():
     sequence = ("bar/baz", "bar/bazaar")
     expect = ("bar/baz", ["", "aar"])
     assert pc.prefix_compression(sequence, policy=None) == expect
