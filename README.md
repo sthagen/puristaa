@@ -1,6 +1,8 @@
 # python-prefix_compression
 Why not explicitly be weak on naming?
 
+Caveat emptor: Currently refactoring into package and adding tests. Naming may change ...
+
 # what does it accomplish or support?
 
 Provide a memory neutral and fast implementation that is clear to understand and works for the use case of extracting a common prefix of a sequence of strings and yielding that prefix and a generator for the compressed strings of the original sequence.
