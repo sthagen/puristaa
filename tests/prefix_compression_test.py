@@ -30,6 +30,11 @@ def test_prefix_compression_nok_ints():
         pc.prefix_compression([1, 2, 3])
 
 
+def test_prefix_compression_nok_floats():
+    with pytest.raises(TypeError):
+        pc.prefix_compression([.123, 3.1415])
+
+
 def test_documentation_example():
     sequence = ['bar/baz', 'bar/bazaar']
     expect = ('bar/', ['baz', 'bazaar'])
