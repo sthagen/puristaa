@@ -12,9 +12,7 @@ def test_main_nok_ints():
 
 
 def test_prefix_compression_ok_string():
-    prefix, postfixes = pc.prefix_compression(["aa"])
-    assert prefix == "aa"
-    assert postfixes == [""]
+    assert pc.prefix_compression(["aa"]) == ("aa", [""])
 
 
 def test_prefix_compression_ok_strings():
