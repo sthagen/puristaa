@@ -6,14 +6,13 @@ import prefix_compression.prefix_compression as pc
 
 
 def test_prefix_compression_ok_string():
-    assert pc.prefix_compression("imension is implicit") == (
-        "imension is implicit",
-        [""],
-    )
+    texts = "imension is implicit"
+    assert pc.prefix_compression(texts) == (        texts,        [""],    )
 
 
 def test_prefix_compression_ok_same_chars_in_string():
-    assert pc.prefix_compression("a a a a") == ("a a a a", [""])
+    texts = "a a a a"
+    assert pc.prefix_compression(texts) == (texts, [""])
 
 
 def test_prefix_compression_ok_sequence_string():
@@ -25,11 +24,13 @@ def test_prefix_compression_ok_strings():
 
 
 def test_prefix_compression_ok_disjoint_strings():
-    assert pc.prefix_compression(["a", "b"]) == ("", ["a", "b"])
+    texts = ["a", "b"]
+    assert pc.prefix_compression(texts) == ("", texts)
 
 
 def test_prefix_compression_ok_empty():
-    assert pc.prefix_compression([]) == ("", [])
+    texts = []
+    assert pc.prefix_compression(texts) == ("", texts)
 
 
 def test_prefix_compression_nok_ints():
