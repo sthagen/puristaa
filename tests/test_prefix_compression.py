@@ -61,7 +61,7 @@ def test_documentation_tuple_no_policy_example():
     assert pc.prefix_compression(sequence, policy=None) == expect
 
 
-def test_documentation_set_no_policy_example():
+def test_documentation_nok_set_no_policy_example():
     sequence = {"bar/baz", "bar/bazaar"}
     with pytest.raises(TypeError):
         pc.prefix_compression(sequence, policy=None)
