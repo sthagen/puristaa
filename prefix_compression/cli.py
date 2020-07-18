@@ -15,6 +15,8 @@ from prefix_compression.prefix_compression import prefix_compression
 def main(argv=None):
     """Test driver for the prefix compression taking the texts from argv and the policy from PC_TOKEN env variable."""
     texts = sys.argv[1:] if argv is None else argv
+    if not isinstance(texts, (tuple, list)):
+        texts = texts.split()
     token = os.getenv("PC_TOKEN", "")
     prefix, endings = prefix_compression(texts, lambda x: x == token if token else None)
     compressed = f"'{prefix}' + {endings}"
