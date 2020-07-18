@@ -13,11 +13,12 @@ def prefix_compression(texts, policy=None):
         return "", texts
     prefix_guard, first, last = 0, min(texts), max(texts)
     for pos, char in enumerate(first):
-        if char != last[pos]:
-            prefix_guard = pos
+        if char == last[pos]:
+            prefix_guard += 1
+        else:
             break
     if policy:
-        for here in range(prefix_guard, -1, -1):
+        for here in range(prefix_guard - 1, -1, -1):
             if policy(first[here]):
                 prefix_guard = here + 1
                 break
