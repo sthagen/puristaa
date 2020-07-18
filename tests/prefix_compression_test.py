@@ -22,3 +22,9 @@ def test_documentation_example():
     sequence = ('bar/baz', 'bar/bazaar')
     expect = ('bar/', ('baz', 'bazaar'))
     assert pc.prefix_compression(sequence, policy=lambda x: x == '/') == expect
+
+
+def test_documentation_no_policy_example():
+    sequence = ('bar/baz', 'bar/bazaar')
+    expect = ('bar/baz', ('', 'aar'))
+    assert pc.prefix_compression(sequence, policy=None) == expect
