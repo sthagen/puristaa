@@ -17,6 +17,10 @@ def test_prefix_compression_ok_strings():
     assert pc.prefix_compression(["aa", "ab"]) == ('a', ['a', 'b'])
 
 
+def test_prefix_compression_ok_disjoint_strings():
+    assert pc.prefix_compression(["a", "b"]) == ('', ['a', 'b'])
+
+
 def test_prefix_compression_ok_empty():
     assert pc.prefix_compression([]) == ('', [])
 
