@@ -5,9 +5,12 @@ import pytest  # type: ignore
 import prefix_compression.cli as cli
 
 
-def test_main_nok_string():
-    with pytest.raises(TypeError):
-        cli.main("dimension is wrong")
+def test_main_ok_string():
+    cli.main("imension is implicit")
+
+
+def test_main_ok_same_chars_in_string():
+    cli.main("a a a a")
 
 
 def test_main_nok_ints():
@@ -16,5 +19,5 @@ def test_main_nok_ints():
 
 
 def test_main_nok_int():
-    with pytest.raises(TypeError):
+    with pytest.raises(AttributeError):
         cli.main(42)
