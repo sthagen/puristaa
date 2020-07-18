@@ -9,6 +9,10 @@ def test_main_nok_ints():
         cli.main([1, 2, 3])
 
 
+def test_prefix_compression_ok_string():
+    assert pc.prefix_compression(["aa"]) == ('aa', [''])
+
+
 def test_prefix_compression_ok_strings():
     assert pc.prefix_compression(["aa", "ab"]) == ('a', ['a', 'b'])
 
