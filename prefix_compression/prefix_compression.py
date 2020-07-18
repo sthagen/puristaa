@@ -26,19 +26,3 @@ def prefix_compression(texts, policy=None):
     if not prefix_guard:  # Reduce memory pressure for all different texts
         return "", texts
     return first[:prefix_guard], [text[prefix_guard:] for text in texts]
-
-
-# pylint: disable=expression-not-assigned
-def main(argv=None):
-    """Test driver for the prefix compression taking the texts from argv and the policy from PC_TOKEN env variable."""
-    texts = sys.argv[1:] if argv is None else argv
-    token = os.getenv("PC_TOKEN", "")
-    prefix, endings = prefix_compression(texts, lambda x: x == token if token else None)
-    compressed = f"{prefix}{endings}"
-    print(
-        f"Prefix compression{f' with inner structure separator {token}' if token else ''} yields {compressed}"
-    )
-
-
-if __name__ == "__main__":
-    sys.exit(main(sys.argv[1:]))
