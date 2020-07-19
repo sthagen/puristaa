@@ -14,7 +14,8 @@ def test_main_ok_same_chars_in_string():
 
 
 def test_main_nok_ints():
-    with pytest.raises(TypeError):
+    message = r"'int' object is not iterable"
+    with pytest.raises(TypeError, match=message):
         cli.main([1, 2, 3])
 
 
