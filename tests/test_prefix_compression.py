@@ -77,5 +77,6 @@ def test_documentation_nok_class_instance_no_policy_example():
     class Foo:
         pass
     an_object = Foo()
-    with pytest.raises(TypeError):
+    message = r"'Foo' object is not iterable"
+    with pytest.raises(TypeError, match=message):
         pc.prefix_compression(an_object, policy=None)
