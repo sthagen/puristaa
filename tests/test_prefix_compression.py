@@ -39,7 +39,8 @@ def test_prefix_compression_nok_ints():
 
 
 def test_prefix_compression_nok_floats():
-    with pytest.raises(TypeError):
+    message = r"'float' object is not iterable"
+    with pytest.raises(TypeError, match=message):
         pc.prefix_compression([0.123, 3.1415])
 
 
