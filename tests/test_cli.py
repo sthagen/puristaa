@@ -20,5 +20,6 @@ def test_main_nok_ints():
 
 
 def test_main_nok_int():
-    with pytest.raises(AttributeError):
+    message = r"'int' object has no attribute 'split'"
+    with pytest.raises(AttributeError, match=message):
         cli.main(42)
