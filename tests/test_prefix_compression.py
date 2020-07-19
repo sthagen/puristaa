@@ -34,7 +34,8 @@ def test_prefix_compression_ok_empty():
 
 
 def test_prefix_compression_nok_ints():
-    with pytest.raises(TypeError):
+    message = r"'int' object is not iterable"
+    with pytest.raises(TypeError, match=message):
         pc.prefix_compression([1, 2, 3])
 
 
