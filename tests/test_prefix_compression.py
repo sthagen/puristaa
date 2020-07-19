@@ -63,7 +63,8 @@ def test_documentation_ok_tuple_no_policy_example():
 
 def test_documentation_nok_set_no_policy_example():
     sequence = {"bar/baz", "bar/bazaar"}
-    with pytest.raises(TypeError):
+    message = r"'set' object is not subscriptable"
+    with pytest.raises(TypeError, match=message):
         pc.prefix_compression(sequence, policy=None)
 
 
