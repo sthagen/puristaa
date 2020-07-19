@@ -71,3 +71,11 @@ def test_documentation_ok_dict_no_policy_example():
     mapping = {0: "bar/baz", 1: "bar/bazaar"}
     expect = ('', [{0: 'bar/baz', 1: 'bar/bazaar'}])
     assert pc.prefix_compression(mapping, policy=None) == expect
+
+
+def test_documentation_nok_class_instance_no_policy_example():
+    class Foo:
+        pass
+    an_object = Foo()
+    with pytest.raises(TypeError):
+        pc.prefix_compression(an_object, policy=None)
