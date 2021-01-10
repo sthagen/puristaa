@@ -1,6 +1,9 @@
 # python-prefix_compression
 Why not explicitly be weak on naming?
 
+## Status
+Experimental
+
 Started using linter, style enforcer, type checker, and coverage in tests.
 
 # what does it accomplish or support?
