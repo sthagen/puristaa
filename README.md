@@ -17,4 +17,4 @@ Another still open question is, if a composition of functions can be construed, 
 
 why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy providing the boolean predicate `lambda x: x == '/'` should not yield `'bar/baz', '', 'aar'` but instead `'bar/', 'baz', 'bazaar'`.
 
-**Note**: The name of the default branch is `default`.
+**Note**: The default branch is `default`.
