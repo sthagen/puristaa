@@ -19,7 +19,7 @@ README += (HERE / "docs" / "changes.md").read_text()
 setup(
     name="prefix-compression",
     version="0.0.1",
-    description="Shared prefix compression of ordered string sequences",
+    description="Shared prefix compression of ordered string sequences.",
     long_description=README,
     long_description_content_type="text/markdown",
     url="https://github.com/sthagen/python-prefix_compression",
