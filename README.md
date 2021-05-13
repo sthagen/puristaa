@@ -1,4 +1,12 @@
-# python-prefix_compression
+# prefix-compression
+
+[![license](https://img.shields.io/github/license/sthagen/python-prefix_compression.svg?style=flat)](https://github.com/sthagen/python-prefix_compression/blob/default/LICENSE)
+[![version](https://img.shields.io/pypi/v/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
+[![downloads](https://img.shields.io/pypi/dm/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
+[![wheel](https://img.shields.io/pypi/wheel/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
+
 Why not explicitly be weak on naming?
 
 ## Status
