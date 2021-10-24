@@ -1,7 +1,7 @@
 [tool.pyflow]
 name = "puristaa"
 py_version = "3.8"
-version = "2021.10.25"
+version = "2021.10.24"
 authors = ["Stefan Hagen <stefan@hagen.link>"]
 
 [tool.pyflow.scripts]
