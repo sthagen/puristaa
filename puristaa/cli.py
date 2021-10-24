@@ -8,7 +8,7 @@ Implementation uses min-max left matching, single character backtracking policy 
 import os
 import sys
 
-from prefix_compression.prefix_compression import prefix_compression
+from puristaa.puristaa import prefix_compression
 
 
 # pylint: disable=expression-not-assigned

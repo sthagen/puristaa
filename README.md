@@ -1,20 +1,13 @@
-# prefix-compression
+# puristaa
 
-[![license](https://img.shields.io/github/license/sthagen/python-prefix_compression.svg?style=flat)](https://github.com/sthagen/python-prefix_compression/blob/default/LICENSE)
-[![version](https://img.shields.io/pypi/v/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
-[![downloads](https://img.shields.io/pypi/dm/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
-[![wheel](https://img.shields.io/pypi/wheel/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/prefix-compression.svg?style=flat)](https://pypi.python.org/pypi/prefix-compression/)
+[![license](https://img.shields.io/github/license/sthagen/puristaa.svg?style=flat)](https://github.com/sthagen/puristaa/blob/default/LICENSE)
+[![version](https://img.shields.io/pypi/v/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![downloads](https://img.shields.io/pypi/dm/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![wheel](https://img.shields.io/pypi/wheel/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
 
-Why not explicitly be weak on naming?
-
-## Status
-Experimental
-
-Started using linter, style enforcer, type checker, and coverage in tests.
-
-# what does it accomplish or support?
+Puristaa (Finnish for compress)
 
 Provide a memory neutral and fast implementation that is clear to understand and works for the use case of extracting a common prefix of a sequence of strings and yielding that prefix and a generator for the compressed strings of the original sequence.
 
@@ -25,4 +18,11 @@ Another still open question is, if a composition of functions can be construed, 
 
 why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy providing the boolean predicate `lambda x: x == '/'` should not yield `'bar/baz', '', 'aar'` but instead `'bar/', 'baz', 'bazaar'`.
 
+## Status
+Experimental
+
 **Note**: The default branch is `default`.
+
+# Use
+
+## Commandline API
