@@ -11,13 +11,6 @@ Another still open question is, if a composition of functions can be construed, 
 
 why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy providing the boolean predicate `lambda x: x == '/'` should not yield `'bar/baz', '', 'aar'` but instead `'bar/', 'baz', 'bazaar'`.
 
-Documentation:
-
-* [Installation](install.md)
-* [Use](use.md)
-* [Command Line API](api.md)
-* [Changes](changes.md)
-
 ## Status
 
 Experimental.
