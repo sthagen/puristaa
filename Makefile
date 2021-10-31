@@ -1,7 +1,4 @@
 SHELL = /bin/bash
-package = shagen/prefix-compression
-
-SHELL = /bin/bash
 package = shagen/puristaa
 
 .DEFAULT_GOAL := all
