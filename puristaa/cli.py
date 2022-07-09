@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
-# pylint: disable=line-too-long
 """Extract common prefix from sequence of strings and yield sequence of rest strings.
 
 Implementation uses min-max left matching, single character backtracking policy and a list.
@@ -12,7 +11,6 @@ import typing
 from puristaa.puristaa import prefix_compression
 
 
-# pylint: disable=expression-not-assigned
 @typing.no_type_check
 def main(argv=None):
     """Test driver for the prefix compression taking the texts from argv and the policy from PC_TOKEN env variable."""
