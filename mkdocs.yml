@@ -34,7 +34,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/shage
 
-copyright: Copyright &copy; 2021 Stefan Hagen under the MIT license
+copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
 
 repo_name: sthagen/puristaa
 repo_url: https://github.com/sthagen/puristaa
@@ -50,6 +50,7 @@ nav:
   - Usage: 'usage.md'
   - API: 'api.md'
   - Changes: 'changes.md'
+  - Test Coverage: https://codes.dilettant.life/coverage/puristaa
 
 markdown_extensions:
   - mkautodoc
