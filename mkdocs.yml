@@ -26,18 +26,16 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/sthagen/puristaa
+      link: https://git.sr.ht/~sthagen/puristaa
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/puristaa
-    - icon: fontawesome/brands/docker
-      link: https://hub.docker.com/r/shagen/puristaa
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/shage
 
 copyright: Copyright &copy; 2022 Stefan Hagen under the MIT license
 
-repo_name: sthagen/puristaa
-repo_url: https://github.com/sthagen/puristaa
+repo_name: ~/sthagen/puristaa
+repo_url: https://git.sr.ht/~sthagen/puristaa
 edit_uri: ""
 
 plugins:

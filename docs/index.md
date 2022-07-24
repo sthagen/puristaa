@@ -2,12 +2,7 @@
 
 Puristaa (Finnish for compress)
 
-[![license](https://img.shields.io/github/license/sthagen/puristaa.svg?style=flat)](https://github.com/sthagen/puristaa/blob/default/LICENSE)
-[![version](https://img.shields.io/pypi/v/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
-[![downloads](https://pepy.tech/badge/puristaa/month)](https://pepy.tech/project/puristaa)
-[![wheel](https://img.shields.io/pypi/wheel/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[License: MIT](https://git.sr.ht/~sthagen/puristaa/tree/default/item/LICENSE)
 
 Provide a memory neutral and fast implementation that is clear to understand and works for the use case of extracting a common prefix of a sequence of strings and yielding that prefix and a generator for the compressed strings of the original sequence.
 
@@ -18,6 +13,17 @@ Another still open question is, if a composition of functions can be construed, 
 
 why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy providing the boolean predicate `lambda x: x == '/'` should not yield `'bar/baz', '', 'aar'` but instead `'bar/', 'baz', 'bazaar'`.
 
-## Status
+[![version](https://img.shields.io/pypi/v/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![downloads](https://img.shields.io/pypi/dm/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![wheel](https://img.shields.io/pypi/wheel/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
 
-Experimental.
+## Bug Tracker
+
+Feature requests and bug reports are bested entered in the [todos of puristaa](https://todo.sr.ht/~sthagen/puristaa).
+
+## Primary Source repository
+
+The primary source repository of [puristaa is at sourcehut](https://git.sr.ht/~sthagen/puristaa)
+a collection of tools useful for software development.

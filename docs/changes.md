@@ -1,5 +1,14 @@
 # Change History
 
+## 2022.7.24
+
+* Bumped dependencies for development and test
+* Fixed internal package version
+* Moved documentation to https://codes.dilettant.life/docs/puristaa
+* Moved tracker to https://todo.sr.ht/~sthagen/puristaa
+* Moved normative source repo to https://git.sr.ht/~sthagen/puristaa
+* Added test coverage link to documentation and coverage to https://codes.dilettant.life/coverage/puristaa
+
 ## 2022.6.27
 
 * Updated development and test dependencies.
