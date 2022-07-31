@@ -14,7 +14,7 @@ Another still open question is, if a composition of functions can be construed, 
 why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy providing the boolean predicate `lambda x: x == '/'` should not yield `'bar/baz', '', 'aar'` but instead `'bar/', 'baz', 'bazaar'`.
 
 [![version](https://img.shields.io/pypi/v/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
-[![downloads](https://img.shields.io/pypi/dm/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![downloads](https://pepy.tech/badge/puristaa/month)](https://pepy.tech/project/puristaa)
 [![wheel](https://img.shields.io/pypi/wheel/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
