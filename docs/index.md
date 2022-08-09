@@ -21,7 +21,7 @@ why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy prov
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of puristaa](https://todo.sr.ht/~sthagen/puristaa).
+Feature requests and bug reports are best entered in the [todos of puristaa](https://todo.sr.ht/~sthagen/puristaa).
 
 ## Primary Source repository
 
