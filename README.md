@@ -33,7 +33,7 @@ The primary source of `puristaa` lives somewhere on a mountain in Central Switze
 But, we use decentralized version control (git), so any clone can become the source to everyone's benefit, no central only code.
 Anyway, the preferred public clones of `puristaa` are:
 
-* [on codeberg](https://codeberg.org/sthagen/puristaa) - a collaboration platform and git hosting for free and open source software, content and projects.
+* [on codeberg](https://codeberg.org/sthagen/puristaa) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.
 * [at sourcehut](https://git.sr.ht/~sthagen/puristaa) - a collection of tools useful for software development.
 
 ## Status
