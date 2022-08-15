@@ -25,5 +25,10 @@ Feature requests and bug reports are best entered in the [todos of puristaa](htt
 
 ## Primary Source repository
 
-The primary source repository of [puristaa is at sourcehut](https://git.sr.ht/~sthagen/puristaa)
-a collection of tools useful for software development.
+The primary source of `puristaa` lives somewhere on a mountain in Central Switzerland.
+But, we use decentralized version control (git), so any clone can become the source to everyone's benefit, no central only code.
+Anyway, the preferred public clones of `puristaa` are:
+
+* [on codeberg](https://codeberg.org/sthagen/puristaa) - a collaboration platform and git hosting for free and open source software, content and projects.
+* [at sourcehut](https://git.sr.ht/~sthagen/puristaa) - a collection of tools useful for software development.
+
