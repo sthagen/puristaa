@@ -3,6 +3,8 @@ site_description: Puristaa (Finnish for compress)
 
 theme:
   name: 'material'
+  logo: assets/logo.png
+  favicon: images/favicon.ico
   features:
     - navigation.expand
     - toc.integrate
