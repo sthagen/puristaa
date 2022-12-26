@@ -30,9 +30,9 @@ lint:
 	$(lint)
 	$(black) --check --diff
 
-.PHONY: mypy
-mypy:
-	mypy puristaa
+.PHONY: types
+types:
+	$(types)
 
 .PHONY: test
 test: clean
@@ -44,7 +44,7 @@ testcov: test
 	@coverage html
 
 .PHONY: all
-all: lint mypy testcov
+all: lint types testcov
 
 .PHONY: sbom
 sbom:
