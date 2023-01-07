@@ -43,9 +43,6 @@ puristaa = "puristaa.cli:app"
 include = ["puristaa"]
 exclude = ["test*"]
 
-[bdist_wheel]
-universal = true
-
 [tool.black]
 line-length = 120
 skip-string-normalization = true
