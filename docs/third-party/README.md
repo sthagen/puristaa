@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/puristaa/blob/default/sbom.json) with SHA256 checksum ([c5c25999 ...](https://git.sr.ht/~sthagen/puristaa/blob/default/sbom.json.sha256 "sha256:c5c25999b4961a916254f73e6ec3ac57d79315ed121afda7baa673db391968d1")).
-<!--[[[end]]] (checksum: 759ab905cb32a89715a274ba8f3f27d9)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/puristaa/blob/default/sbom/cdx.json) with SHA256 checksum ([c00ede97 ...](https://git.sr.ht/~sthagen/puristaa/blob/default/sbom/cdx.json.sha256 "sha256:c00ede975f6e9b36b0f10313ec084b2025c79fb52f30285a78c9a6d6a13c7a98")).
+<!--[[[end]]] (checksum: 3a63142bdc936a957a26aef1b27d4258)-->
 
 None.
 
