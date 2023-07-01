@@ -20,6 +20,7 @@ Third party dependencies are documented in the folder [third-party](third-party/
 [![wheel](https://img.shields.io/pypi/wheel/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
 [![supported-versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
 [![supported-implementations](https://img.shields.io/pypi/implementation/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/puristaa.svg?style=flat)](https://git.sr.ht/~sthagen/puristaa/log)
 
 ## Bug Tracker
 
