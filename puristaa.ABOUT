@@ -1,0 +1,14 @@
+name: puristaa
+description: Puristaa (Finnish for compress) - shared prefix compression of ordered string sequences.
+license_spdx: MIT
+version: 2022.7.24
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/puristaa
+news_url: https://libraries.io/pypi/puristaa/versions.atom
+date: 2022-07-24
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/puristaa?number=2022.7.24
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/puristaa
+vcs_branch: default
+
