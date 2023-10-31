@@ -18,7 +18,7 @@ why? well, imagine the sequence `'bar/baz', 'bar/bazaar'` and a path policy prov
 
 [![Version](badges/latest-release.svg)](https://pypi.python.org/pypi/puristaa/)
 [![Downloads](badges/downloads-per-month.svg)](https://pepy.tech/project/puristaa)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/puristaa.svg?style=flat)](https://pypi.python.org/pypi/puristaa/)
+[![Python](badges/python-versions.svg)](https://pypi.python.org/pypi/puristaa/)
 [![Maintenance Status](badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/puristaa/log)
 
 ## Bug Tracker
