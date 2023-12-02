@@ -1,7 +1,7 @@
 {
   "puristaa": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:31:52.494848",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 16:29:02 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 37,
@@ -13,6 +13,22 @@
     "num_branches": 24,
     "num_partial_branches": 0,
     "covered_branches": 24,
-    "missing_branches": 0
+    "missing_branches": 0,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "puristaa/__init__.py",
+      "puristaa/cli.py",
+      "puristaa/puristaa.py"
+    ],
+    "blake3": "b5d143d46e271f4d485a1012bab529c499f16f20b1314abdd8ada187db61c24f",
+    "blake2": "acef51e6a9a7d5ca06ea42ef21160f0e8be4a68c7da5f40efa6e4789eec79bbaf3d267645a76bb3dd0342721e2002db2a3c83ff94194ea92ab225d54fe097628",
+    "sha512": "2c5b9552cf7ee78c4893c4973bbfcb623f483928cb2d6f8570bf944404a600846d7012463078609a76c894fb17d805051fb1c708980fda6417b05e84eae3bb0b",
+    "sha384": "b94cf51f563adce59d6a583221a6564773af2721eb3f1fdfa3f5c0a38b6f78aead7d98fd1880b65ed1ce0c9f07a0ca76",
+    "sha256": "180fb18a5fdb44e1b8dbecac6e27a9de7ee943fcb06750fd3dc478eeb0232f44",
+    "sha1": "ca6b6f21fcb6e4c2d26993f782a2eec8e625c9d9",
+    "md5": "a2c3d99ebf9132a261c8600d7e2083e4",
+    "python_version": "3.10.12",
+    "entropy": 4.787317
   }
 }
