@@ -21,6 +21,7 @@
       "last_month": -1,
       "last_week": -1
     },
+    "dynamic": null,
     "home_page": "https://git.sr.ht/~sthagen/puristaa",
     "keywords": "compression,developer-tools,text-processing",
     "license": "",
@@ -37,6 +38,7 @@
       "Source Code": "https://git.sr.ht/~sthagen/puristaa",
       "Test Coverage": "https://codes.dilettant.life/coverage/puristaa"
     },
+    "provides_extra": null,
     "release_url": "https://pypi.org/project/puristaa/2022.7.24/",
     "requires_dist": [
       "black ; extra == 'dev'",
